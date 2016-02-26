@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Dictionary</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<nav class="navbar navbar-default">
+		  <div class="container-fluid">
+		    <div class="navbar-header">
+		      <a class="navbar-brand" href="#">Dictionary</a>
+		    </div>
+		    <ul class="nav navbar-nav">
+		      <li class="active"><a href="index.html">Home</a></li>
+		      <li><a href="#" >Add new word</a></li>
+		      <li><a href="#" id="learnNew">Learn new words</a></li> 
+		      <li><a href="#" id="repeatLearnt">Repeat learnt words</a></li> 
+		    </ul>
+		  </div>
+		</nav>
+
+		<header class = 'jumbotron text-center'>
+			<h3>My new awesome word training programme!</h3>
+			<p>Hey, practise your German skills here!</p>
+		</header>
+
+		<!--div class = 'container startPage'>
+			<div class = "row choose">
+					<div class="col-md-4 col-md-offset-4">
+						<button id="learnNew" class="btn btn-primary btn-block btn-large">learn new words</button>
+						<button id="repeatLearnt" class="btn btn-primary btn-block btn-large">repeat known words</button>
+					</div>
+			</div>
+		</div-->
+		<div  class  = 'container learning'>
+			<div class = ' row text-center'>
+				<h4></h4>
+			</div>
+			<div class = "row ">
+					<div class="col-md-4 col-md-offset-4 text-center displayingWords">
+						
+						<p id = 'word'>Word here</p>
+	        		<p id = 'translation'>Translation here</p>
+					</div>
+	        </div>
+
+	       	 <div class="row learningButtons">
+	       	 	<div class=" col-md-2 col-md-offset-5 btn-group-vertical">
+	       	 		<button type="button" class="btn btn-primary btn-sm  next">new word</button>
+				 	<button type="button" class="btn btn-primary btn-sm  translate">show translation</button>
+				 	<button type="button" class="btn btn-primary btn-sm  move1">move to "learnt"</button>
+				 	<button type="button" class="btn btn-primary btn-sm  move2">move to "new"</button>
+	       	 	</div>				 	
+			</div>
+		</div>
+		<script src='https://code.jquery.com/jquery-2.1.3.js'></script>
+		<script src='script.js'></script>
+	</body>
+</html>

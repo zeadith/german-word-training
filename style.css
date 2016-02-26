@@ -1,0 +1,16 @@
+.jumbotron {
+	/*text-align: center;*/
+	margin-top: 20px;
+}
+
+.well {
+	margin-top: 20px;
+}
+
+.displayingWords {
+	border-radius: 5px;
+    border: 1px solid gray;
+    padding: 30px 0 30px 0;
+    margin-bottom: 30px;
+}
+
