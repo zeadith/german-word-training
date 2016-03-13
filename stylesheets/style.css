@@ -7,15 +7,26 @@ body {
 	margin: 0;
 	padding: 0;
 	font-family: arial;
-	color: #09465c;
+	color: #C4133F;
 	font-size: 1.8rem;
+	background: url(img/tartan.png);
 }
 
+.main {
+	position: absolute;
+	top: 50px;
+
+}
 .page-header {
-	padding: 15px;
+	padding: 5px;
 	color: #ffffff;
-	background-color: #09465c;
-	margin-bottom: 50px;
+	background-color: #C4133F;
+	
+}
+
+.learning {
+	background-color: #ffffff;
+	padding: 30px 0;
 }
 
 .displayingWords {
@@ -25,16 +36,16 @@ body {
 }
 
 .btn {
-	border: 1px solid #09465c;
+	border: 1px solid #C4133F;
 	background-color: #ffffff;
-	color: #09465c;
-	padding: 2px;
+	color: #C4133F;
+	padding: 5px;
 }
 
 .page-footer {
-	margin-top: 50px;
+	
 	padding: 3px;
-	background-color: #09465c;
+	background-color: #C4133F;
 	font-size: 1.2rem;
 	text-align: right;
 }
@@ -49,12 +60,14 @@ body {
 		max-width: 90vw;
 		margin: auto;
 		margin-top: 30px;
-		border: 2px solid #09465c;
-		border-radius: 5px;
+		border: 3px solid #781830;
+		position: relative;
+		border-radius: 1px;
+		
 	}
 
 	.btn:hover{
-		background-color: #09465c;
+		background-color: #781830;
 		color: #ffffff;
 
 	}
